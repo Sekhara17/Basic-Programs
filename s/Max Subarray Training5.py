@@ -1,4 +1,6 @@
+#We take an array
 arr  = [1,4,5,6,7,3,2]
+#A variable to store Maximun sum
 max_sum = 0
 s = 0
 for i in arr:
