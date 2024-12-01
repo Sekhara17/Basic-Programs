@@ -1,3 +1,5 @@
+" BINARY OPERATORS PROGRAM "
+
 def and_op(s1,s2):
     res = " "
     for i in range(len(s1)):

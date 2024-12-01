@@ -1,6 +1,7 @@
+" REVERSE A STRING UPTO A SPECIFIC POSITION "
+
 # input str = "string"
 # output  str = "rtsng"
-
 
 s = "string"
 n = len(s)

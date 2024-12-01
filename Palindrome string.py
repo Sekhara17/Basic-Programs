@@ -1,10 +1,12 @@
-def pal(st):
+" PALINDROME STRING OR NOT "
+
+def palin(str1):
     left = 0
-    right = len(st)-1
+    right = len(str1)-1
     while left < right:
-           if st[left] == st[right]:   #if st[left]!= st[right]
-                 return True            # return False
-           left+=1
-           right-=1
+        if str1[left] == str1[right]:   #if str1[left]!= str1[right]
+            return True            # return False
+        left+=1
+        right-=1
     return False                         #return True
-print(pal("madam"))
+print(palin("madam"))

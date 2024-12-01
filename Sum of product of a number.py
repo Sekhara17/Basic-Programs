@@ -1,7 +1,11 @@
-n = int(input("Enter number:"))
-product_of_number = 1
-while n>0:
-    remainder = n % 10
-    product_of_number *= remainder
-    n = n//10
-print(product_of_number)
+" Sum of Product of a Given number "
+
+def prod_sum(num):
+    prod = 1
+    while num > 0:
+        rem = num % 10
+        prod *= rem
+        num = num // 10
+    return prod
+
+print(prod_sum(32))

@@ -1,3 +1,5 @@
+"REPLACE A CHARACTER IN A GIVEN STRING "
+
 def str_char(str,ch1,ch2):
     res_str=" "
     for char in range(len(str)):

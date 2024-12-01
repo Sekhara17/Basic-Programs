@@ -1,7 +1,6 @@
-def occurence(s):
-    s1 = set(s)
-    for a in s1:
-        print(a,s.count(a),sep =" --> ")
+def occur_num(arr):
+    arr1 = set(arr)
+    for num in arr1:
+        print(num,arr.count(num),sep =" --> ")
 
-s = [10,15,10,5,15,10]
-occurence(s)
+occur_num([1,5,3,4,5,2,1])

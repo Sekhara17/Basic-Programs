@@ -1,5 +1,7 @@
+" FIND PRIPLETS IN AN ARRAY "
+
 class Solution:
-    def prip(self,n):
+    def prips(self,n):
         sum = 4
         count = 0
         for i in range(len(n)-2):
@@ -8,9 +10,9 @@ class Solution:
                     if n[i]+n[j]+n[k] == sum:
                         count+=1
                         print(n[i],n[j],n[k])
-        print("count:",count)
         if count == 0:
-            print("not found")
-n = [0,0,1,2,3,4,5]
+            return " Priplets not found "
+        return count
+
 s = Solution()
-s.prip(n)
+print(s.prips([0,0,1,2,3,4,5]))

@@ -1,18 +1,18 @@
-#User function Template for python3
+" PALINDROME NUMNER OR NOT "
 
 class Solution:
-    def is_palindrome(self,x):
-        
-        original_number = x
+    def palin_num(self,num):
+        original_number = num
         reversed_number = 0
-        while x > 0:
-            digit = x % 10
+        while num > 0:
+            digit = num % 10
             reversed_number = reversed_number * 10 + digit
-            x //= 10
+            num //= 10
 
         if original_number == reversed_number:
             return "Yes"
         else:
             return "No"
-c = Solution()
-print(c.is_palindrome(555))
+        
+s = Solution()
+print(s.palin_num(655))

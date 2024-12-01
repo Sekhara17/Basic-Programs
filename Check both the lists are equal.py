@@ -1,3 +1,5 @@
+" CHECKING BOTH LISTS ARE EQUAL OR NOT "
+
 def sap(w1,w2):
     w11 = ""
     w12 = ""

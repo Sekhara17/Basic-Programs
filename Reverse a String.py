@@ -1,5 +1,5 @@
+" Optimal and O(n) time complexity "
 
-# optimal and O(n) time complexity
 def rever(str):
     reverse_str=" "
     for char in str:
@@ -8,7 +8,8 @@ def rever(str):
 str = "reddi"
 print(rever(str))
 
-# little bit more time complexity
+" Little bit more time complexity "
+
 def revers(str):
     reverse_str=" "
     for char in range(len(str)):
@@ -17,4 +18,3 @@ def revers(str):
     s = reverse_str[::-1]
     return s
 print(revers("reddi"))
-

@@ -1,3 +1,5 @@
+" BINARY SEARCH "
+
 class solution:
     def bs(self,arr,target):
         low = 0

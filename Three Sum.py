@@ -1,6 +1,7 @@
+" THREE NUMBERS SUM EQUAL TO ZERO PAIRS "
+
 class Solution:
     def threeSum(self, nums):
-        # Your logic to solve the 3Sum problem
         result = []
         nums.sort()
         for i in range(len(nums)):

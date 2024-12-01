@@ -105,5 +105,3 @@ def max_subarray(arr):
             sum1 = 0
     return max1
 print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))
-
-" 10. "
